@@ -232,6 +232,26 @@ text-align: center;
     }
 
 
+    /* no download related styles */
+
+    .no-download-container{
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .no-download-content{
+        width: 50%;
+        margin: 0 auto;
+        text-align: right;
+
+    }
+    .no-download-p{
+        width: 70%;
+     }
+
+
 
 
  
