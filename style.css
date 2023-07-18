@@ -122,7 +122,7 @@ padding-left: 150px;
    margin: auto ;
    align-items: center;
    justify-content: center;
-   display: inline;
+   text-align: center;
    
  
  }
@@ -143,12 +143,15 @@ font-size: 95px;
 font-weight: 800;
 border: 1px solid red;
 margin: 0 auto;
+text-align: center;
  }
+
  .play-like{
     font-size: 48px;
    font-weight: 600;
     text-transform: uppercase;
     margin: 0 auto;
+    text-align: center;
    }
 
    .big-image{
@@ -163,17 +166,24 @@ margin: 0 auto;
 height: 600px;
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
+    justify-content: center;
+    align-items: center;
+    
    }
    .we-gamer-image{
     border: 1px solid red; 
     width: 60%;
-    padding: 100px; 
+    padding: 100px;
+    margin-top: 0px; 
 }
 
 .we-gamer-content{
     border: 1px solid red;  
     width: 40%; 
+    align-items: center;
+    justify-content:center;
+    text-align: end;
+
 }
 
 .we-gamer-photo{
@@ -181,6 +191,45 @@ height: 600px;
 
 }
 
+.we-gamer-title{
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+/* online game related styles */
+
+
+.online-game-container{
+
+
+}
+.online-game-image{
+display: flex;
+justify-content: center;
+gap: 24px;
+text-align: center;
+}
+
+.online-game-text-div{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.online-game-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    line-height: normal;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    }
 
 
 
