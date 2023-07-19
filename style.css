@@ -442,6 +442,7 @@ line-height: 60px;
      }
      .banner-container{
         flex-direction: column;
+     }
         
     
      .nav-item-container{
@@ -482,7 +483,7 @@ line-height: 60px;
    
     /* border: 1px solid red; */
     margin: 0 auto;
-    text-align: center;
+    text-align: center;}
      
     
      .play-like{
@@ -618,7 +619,6 @@ line-height: 60px;
     
             flex-direction: column;
             flex-wrap: wrap;
-    
            }
+           
 
-}
