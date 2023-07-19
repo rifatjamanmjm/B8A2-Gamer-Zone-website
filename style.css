@@ -44,7 +44,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     align-items: center;
     width: 50%;
@@ -55,7 +55,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
 .image-frame{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding-left: 100px;
     
 }
@@ -67,13 +67,13 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
 }
 .test-span{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-size: 30px;
     font-weight: bolder;
 
 }
 .nav-item-container{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    width: 50%;
 
 }
@@ -103,36 +103,38 @@ padding-left: 150px;
 .social-bar{
     display: flex;
     background: #FFF;
-    border: 1px solid rosybrown;
+    /* border: 1px solid rosybrown; */
 
 }
  /* banner related styles */
  
  .banner-container{
-    border: 1px solid rgb(147, 223, 7); 
+    /* border: 1px solid rgb(147, 223, 7);  */
     max-width: 1920px;
     height: 700px;
     display: flex;
     background: #ecebeb;
     background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
 
 }
   
  .play-container{
-    background-image: url('./images/Group\ 14.png');
-    border: 1px solid rgb(148, 143, 188);
+    /* background-image: url('./images/Group\ 14.png');
+    border: 1px solid rgb(148, 143, 188); */
     width: 50%;
    margin: auto ;
    align-items: center;
    justify-content: center;
    text-align: center;
+
    
    
  
  }
 
  .banner-image-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
 
 
@@ -145,7 +147,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 95px;
 font-weight: 800;
-border: 1px solid red;
+/* border: 1px solid red; */
 margin: 0 auto;
 text-align: center;
  }
@@ -167,7 +169,7 @@ text-align: center;
 
  .we-gamer-container{
     width: 1900px;
-height: 600px;
+    height: 600px;
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     justify-content: center;
@@ -175,18 +177,19 @@ height: 600px;
     
    }
    .we-gamer-image{
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     width: 50%;
     padding: 100px;
     margin-top: 0px; 
 }
 
 .we-gamer-content{
-    border: 1px solid red;  
+    /* border: 1px solid red;   */
     width: 50%; 
     align-items: center;
     justify-content:center;
     text-align: end;
+    padding-right: 200px;
 
 }
 
@@ -308,8 +311,8 @@ line-height: 60px;
     flex-wrap: wrap;
     gap:50px;
     margin: 20px auto;
-    width: 75%;
-    margin
+    width: 80%;
+    margin-top: 100px;
 
 }
 
@@ -375,7 +378,7 @@ line-height: 60px;
         
        .social-media{
         justify-content: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         align-items: center;
         gap: 30px;
         display: flex;
