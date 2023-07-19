@@ -430,7 +430,6 @@ line-height: 60px;
     .nav-container{
         
         flex-direction: column;
-        justify-content: flex-start;
         flex-wrap:wrap;
     }
 
@@ -442,20 +441,184 @@ line-height: 60px;
         flex-wrap: wrap;
      }
      .banner-container{
-        justify-content: flex-start;}
+        flex-direction: column;
+        
     
      .nav-item-container{
-        border: 1px solid blue;
+        
         width: 100%;
      
      }
      
      .ul-container{
         flex-direction: column;
-     margin-right: 20px;
-     gap:30px;
-          padding-left:10px;
+     
+          
      
      } 
+
+     .play-container{
+        
+        width: 100%;
+       margin: auto ;
+      
+    
+       
+       
+     
+     }
+    
+     .banner-image-container{
+      
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    
+    
+    
+     }
+     .goat-text{
+   
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    text-align: center;
+     
+    
+     .play-like{
+       
+       }
+    
+       .big-image{
+        width: 100%;
+        padding-left: 68px;
+       }
+       /* we are gamer related styles */
+    
+    
+     .we-gamer-container{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+       }
+       .we-gamer-image{
+        /* border: 1px solid red;  */
+        width: 100%;
+        
+    }
+    
+    .we-gamer-content{
+        /* border: 1px solid red;   */
+        width: 100%; 
+       
+    
+    }
+    
+    .we-gamer-photo{
+     width: 70%;
+    
+    }
+    
+    .we-gamer-title{
+    font-size: 20px;
+    
+    }
+    
+       
+   
+    .online-game-image{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    
+        .play-btn-container{
+    
+            flex-direction: column;
+        flex-wrap: wrap;
+    
+        }
+    
+        
+    
+        .no-download-container{
+            display: flex;
+            align-items: center;
+            width: 1920px;
+            height: 800px;
+    
+    
+        }
+    
+        .no-download-content{
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+        }
+        .no-download-p{
+            width: 100%;
+         }
+    
+         
+       
+          
+    
+    .icon-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    
+         .icon-content-1{
+            flex-direction: column;
+        flex-wrap: wrap;
+         }
+    
+         .icon-image-11{
+            padding-right: 10px;
+    
+         }
+                /* Footer related styles */
+    
+         .footer-container{
+            width: 1920px;
+            height: 636px;
+            background: #0B0223;
+            
+    
+    
+         }
+         .logo-footer{
+            flex-direction: column;
+             flex-wrap: wrap;
+    
+         }
+    
+         
+            
+            .story-text ul{
+                flex-direction: column;
+                flex-wrap: wrap;
+    
+            /* social media related styles */
+            
+           
+            /* border: 1px solid red; */
+            flex-direction: column;
+            flex-wrap: wrap;
+           
+           }
+    
+    
+           .term-condition-div{
+    
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+           }
 
 }
