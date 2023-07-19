@@ -232,7 +232,7 @@ text-align: center;
     }
 
 
-    /* no download related styles */
+    /* no  download related styles */
 
     .no-download-container{
         display: flex;
@@ -242,13 +242,35 @@ text-align: center;
     }
 
     .no-download-content{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         text-align: right;
+        padding: 200px;
 
     }
     .no-download-p{
-        width: 70%;
+        width: 100%;
+     }
+
+     .relative-image img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        margin: 0;
+        left: -680px;
+        bottom: -240px;
+
+
+     }
+     .no-download-rose{
+        color: #F948B2;
+        
+     }
+     .no-down-title{
+        font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
      }
 
 
@@ -272,7 +294,37 @@ text-align: center;
 
 
 
-@media screen and (max-width: 415; ) {
+@media screen and (max-width:576px) {
+
+    .nav-container{
+        
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap:wrap;
+    }
+
+    .logo-container{
+        
+        flex-direction: column;
+        
+        width: 100%;
+        flex-wrap: wrap;
+     }
+     .banner-container{
+        justify-content: flex-start;}
     
+     .nav-item-container{
+        border: 1px solid blue;
+        width: 100%;
+     
+     }
+     
+     .ul-container{
+        flex-direction: column;
+     margin-right: 20px;
+     gap:30px;
+          padding-left:10px;
+     
+     } 
 
 }
